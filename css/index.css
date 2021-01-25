@@ -7,13 +7,22 @@ body {
 }
 ul {
     list-style-image: url("../images/chili-pepper-icon.gif");
-}
-
-li {
-    padding: 0px;
-    margin-top: 10px;
     margin-right: 20px;
 }
+li {
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+}
+
+#teglalap {
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    border: solid 1px lightskyblue;
+    color: black;
+}
+
 
 .fokeret {
     display: inline-grid;
@@ -41,13 +50,6 @@ li {
 .tartalom { grid-area: tartalom;
     word-wrap: break-word;
     margin-left: 20px;
-}
-
-#teglalap {
-    padding: 20px;
-    background-color: white;
-    border: solid 1px lightskyblue;
-    color: black;
 }
 
 table {
