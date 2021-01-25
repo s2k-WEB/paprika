@@ -6,21 +6,30 @@ body {
     justify-content: center;
 }
 ul {
-    list-style-image: url("../images/chili-pepper-icon.gif");
-    margin-right: 20px;
-}
-li {
-    padding: 0px;
-    margin: 0px;
-    line-height: 0px;
+    /* list-style-image: url("../images/chili-pepper-icon.gif"); */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+ 
+li {
+    background-image: url("../images/chili-pepper-icon.gif");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60px;
+    margin-bottom: 16px;
+}
+
+
 #teglalap {
-    padding: 0px;
+    padding: 30px;
     margin: 0px;
     background-color: white;
     border: solid 1px lightskyblue;
     color: black;
+    padding-left: 20px;
+    margin-left: 64px;
 }
 
 
