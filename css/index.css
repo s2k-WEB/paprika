@@ -5,3 +5,60 @@ body {
     display:flex;
     justify-content: center;
 }
+ul {
+    list-style-image: url("../images/chili-pepper-icon.gif");
+}
+
+li {
+    padding: 0px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.fokeret {
+    display: inline-grid;
+    grid-template-columns: 290px 700px;
+    grid-template-rows: 140px;
+    grid-gap: 0px;
+    grid-template-areas: 
+    'fejlec fejlec' 
+    'menu tartalom'
+    'menu tartalom'
+    'menu tartalom';
+}
+.fejlec { grid-area: fejlec;
+    background-image: url("../images/sok.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 20px;
+    color: black;
+    line-height: 80px;
+}
+.menu { grid-area: menu;
+    margin: 20px;
+}
+
+.tartalom { grid-area: tartalom;
+    word-wrap: break-word;
+    margin-left: 20px;
+}
+
+#teglalap {
+    padding: 20px;
+    background-color: white;
+    border: solid 1px lightskyblue;
+    color: black;
+}
+
+table {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+table, th, td {
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align:middle;
+}
