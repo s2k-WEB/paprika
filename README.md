@@ -1,4 +1,4 @@
-# [paprika](https://smokey2k.github.io/paprika/)
+# [paprika](https://s2k-web.github.io/paprika/)
 
 paprika@turr
 
